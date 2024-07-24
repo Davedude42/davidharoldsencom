@@ -1,0 +1,45 @@
+
+.border-comical {
+	border: 4px solid black;
+}
+.shadow-comical {
+	box-shadow: 6px 6px 0px 0px black;
+}
+.comical-button {
+	box-shadow: 6px 6px 0px 0px black;
+}
+.comical-button:active {
+	transform: translate(4px, 4px);
+	box-shadow: 2px 2px 0px 0px black;
+}
+
+.blog-content {
+	@apply flex flex-col items-stretch gap-4;
+
+	width: 100%;
+	max-width: 800px;
+}
+.blog-box {
+	@apply border-comical p-4;
+}
+h1:not(:first-child), h2:not(:first-child), h3:not(:first-child), h4:not(:first-child), h5:not(:first-child), h6:not(:first-child), p:not(:first-child) {
+	@apply pt-2;
+}
+h1 {
+	@apply font-IBMPlexMono font-semibold text-2xl;
+}
+h2 {
+	@apply font-IBMPlexMono font-semibold text-xl;
+}
+h3 {
+	@apply font-IBMPlexMono font-semibold text-lg;
+}
+h4 {
+	@apply font-IBMPlexMono font-medium text-lg;
+}
+h5, h6 {
+	@apply font-IBMPlexMono font-medium;
+}
+p {
+	@apply font-Mulish text-justify;
+}
