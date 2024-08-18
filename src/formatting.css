@@ -14,7 +14,7 @@
 }
 
 .blog-content {
-	@apply flex flex-col items-stretch gap-4 pb-8;
+	@apply flex flex-col items-stretch gap-4 pb-8 px-2;
 
 	width: 100%;
 	max-width: 800px;

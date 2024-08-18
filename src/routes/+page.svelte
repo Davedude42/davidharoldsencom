@@ -1,23 +1,17 @@
-<style>
-	li {
-		@apply py-0.5;
-	}
-</style>
 <div class="blog-content pt-nav">
-	<div class="blog-box flex flex-col items-center font-IBMPlexMono bg-neutral-800 text-white">
-		<div class="whitespace-pre font-medium pt-1 text-base" style="line-height: 1;">
+	<div 
+		class="blog-box responsive-text-size flex flex-col items-center font-IBMPlexMono bg-neutral-800 text-white"
+	>
+		<div class="whitespace-pre font-medium pt-1" style="line-height: 1;">
 <WelcomeASCII />
-
-
-
-I am...
-
+<br />
+<br />
+<br /><span class="less-responsive-text-size">I am...<br />&nbsp;</span>
  ___  ____ _  _ _ ___     _  _ ____ ____ ____ _    ___  ____ ____ _  _ 
  |  \ |__| |  | | |  \    |__| |__| |__/ |  | |    |  \ [__  |___ |\ | 
  |__/ |  |  \/  | |__/    |  | |  | |  \ |__| |___ |__/ ___] |___ | \|
 
-
-As you could probably guess from the domain name.
+<span class="less-responsive-text-size whitespace-pre-wrap"><br />As you could probably guess from the domain name.</span>
 		</div>
 	</div>
 	<div class="blog-box">
@@ -54,3 +48,37 @@ As you could probably guess from the domain name.
 	import BlogBoxLabel from '../components/BlogBoxLabel.svelte';
 	import CodeBlock from '../components/CodeBlock.svelte';
 </script>
+<style scoped>
+li {
+	@apply py-0.5;
+}
+.responsive-text-size {
+	font-size: 4px;
+}
+.less-responsive-text-size {
+	font-size: 12px;
+}
+@media only screen and (min-width: 350px) {
+	.responsive-text-size {
+		font-size: 6.5px;
+	}
+}
+@media only screen and (min-width: 500px) {
+	.responsive-text-size {
+		font-size: 9px;
+	}
+}
+@media only screen and (min-width: 600px) {
+	.responsive-text-size {
+		font-size: 12px;
+	}
+	.less-responsive-text-size {
+		font-size: 16px;
+	}
+}
+@media only screen and (min-width: 800px) {
+	.responsive-text-size {
+		font-size: 16px;
+	}
+}
+</style>
