@@ -20,8 +20,13 @@
 	max-width: 800px;
 }
 .blog-box {
-	@apply border-comical p-6;
+	@apply border-comical relative p-6;
 }
+.mt-with-label {
+	@apply mt-12;
+}
+
+
 h1:not(:first-child), h2:not(:first-child), h3:not(:first-child), h4:not(:first-child), h5:not(:first-child), h6:not(:first-child), p:not(:first-child) {
 	@apply mt-5;
 }

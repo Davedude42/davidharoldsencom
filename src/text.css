@@ -3,3 +3,9 @@
 	letter-spacing: 0.025em;
 	line-height: 1.8;
 }
+
+.first-letter-big {
+	@apply font-IBMPlexMono;
+	font-size: 200%;
+	line-height: 1;
+}
