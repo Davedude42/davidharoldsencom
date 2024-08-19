@@ -1,5 +1,5 @@
 <div class="nav-wrapper">
-	<div class="pointer-events-auto z-40 border-comical font-IBMPlexMono font-semibold text-xl px-4 py-2 whitespace-nowrap">David Haroldsen</div>
+	<div class="pointer-events-auto z-40 border-comical bg-white font-IBMPlexMono font-semibold text-xl px-4 py-2 whitespace-nowrap">David Haroldsen</div>
 	<div class="relative" style="height: 52px;">
 		<button class="nav-button border-comical" on:click={toggleNav} class:navOpen={navOpen}>
 			<nav class="nav-nav" class:navOpen={navOpen}>
@@ -29,7 +29,7 @@
 		@apply hover:underline;
 	}
 	.nav-wrapper {
-		@apply pointer-events-none absolute top-0 inset-x-0 flex flex-row items-center justify-between gap-4 h-nav;
+		@apply fixed top-0 inset-x-0 z-40 pointer-events-none flex flex-row items-center justify-between gap-4 h-nav;
 
 		padding: 0 calc((100px - 52px) / 2);
 	}
