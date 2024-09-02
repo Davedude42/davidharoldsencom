@@ -1,3 +1,10 @@
+<svelte:head>
+	<title>David Haroldsen</title>
+	<meta name="description" content="I'm David Haroldsen and this is my blog, my portfolio, my just about whatever else I feel like putting on here.">
+	<meta name="author" content="David Haroldsen">
+	<meta name="keywords" content="programming,blog,fun,awesome,amazing">
+	<meta property="og:title" content="David Haroldsen" />
+</svelte:head>
 <div class="nav-wrapper">
 	<div class="pointer-events-auto z-40 border-comical bg-white font-IBMPlexMono font-semibold text-xl px-4 py-2 whitespace-nowrap">David Haroldsen</div>
 	<div class="relative" style="height: 52px;">

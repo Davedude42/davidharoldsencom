@@ -1,11 +1,12 @@
+<svelte:head>
+	<title>David's Discoveries</title>
+</svelte:head>
 <div class="blog-content pt-nav">
 	<h1 class="blog-box bg-green-900 text-white text-3xl tracking-widest">
 		David's Discoveries
 	</h1>
 	<div class="blog-box">
-		<h2>
-			<span class="highlight">What is David's Discoveries?</span>
-		</h2>
+		<h4>What is David's Discoveries?</h4>
 		<p>
 			It's where I write about... things. What have I been doing? What do I want the world to know? Why did I spend four hours try to connect linux to my printer just for it to never connect? 
 		</p>

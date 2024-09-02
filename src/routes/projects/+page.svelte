@@ -58,11 +58,11 @@
 				<div class="font-IBMPlexMono text-2xl">Light Blue</div>
 				<div class="text-lg">Who knew computers could be good at chess?</div>
 			</a>
-			<a class="project-item border-comical comical-button bg-white hover:bg-green-400" href="/project/ledlights/ph">
+			<!--<a class="project-item border-comical comical-button bg-white hover:bg-green-400" href="/project/ledlights/ph">
 				<img src={ledlightsImage} alt="Light Emitting Diodes" class="row-span-2 border-comical" />
 				<div class="font-IBMPlexMono text-2xl">LED Lights</div>
 				<div class="text-lg">My strip of Light Emitting Diodes</div>
-			</a>
+			</a>-->
 		</div>
 		<div class="self-center flex flex-col items-stretch w-96 border-comical mt-1.5">
 			<div class="project-title p-2 bg-black text-white text-center font-IBMPlexMono font-bold text-xl">

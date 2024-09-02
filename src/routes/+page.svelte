@@ -1,3 +1,6 @@
+<svelte:head>
+	<title>David Haroldsen</title>
+</svelte:head>
 <div class="blog-content pt-nav">
 	<div 
 		class="blog-box responsive-text-size flex flex-col items-center font-IBMPlexMono bg-neutral-800 text-white"
@@ -44,9 +47,9 @@
 	</div>
 </div>
 <script lang="ts">
-	import WelcomeASCII from '../components/WelcomeASCII.svelte';
-	import BlogBoxLabel from '../components/BlogBoxLabel.svelte';
-	import CodeBlock from '../components/CodeBlock.svelte';
+	import WelcomeASCII from '../lib/components/WelcomeASCII.svelte';
+	import BlogBoxLabel from '../lib/components/BlogBoxLabel.svelte';
+	import CodeBlock from '../lib/components/CodeBlock.svelte';
 </script>
 <style scoped>
 li {

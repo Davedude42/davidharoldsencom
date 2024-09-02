@@ -66,3 +66,8 @@ hr {
 .blog-box a {
 	@apply hover:underline text-blue-500;
 }
+
+
+.program-info p, .program-info h1, .program-info h2, .program-info h3, .program-info h4, .program-info h5  {
+	margin-top: 12px;
+}
