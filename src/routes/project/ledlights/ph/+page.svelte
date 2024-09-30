@@ -19,5 +19,5 @@
 	</article>
 </div>
 <script>
-import mee from '$lib/assets/imgs/mee.jpg';
+import mee from '$lib/imgs/mee.jpg';
 </script>
